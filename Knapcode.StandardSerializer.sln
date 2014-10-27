@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapcode.StandardSerializer.Test", "Knapcode.StandardSerializer.Test\Knapcode.StandardSerializer.Test.csproj", "{008BE099-AF1D-437A-B87C-02A5DDCF6FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapcode.StandardSerializer", "Knapcode.StandardSerializer\Knapcode.StandardSerializer.csproj", "{114A07C1-A65A-462B-B5D5-10E19449B7B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{008BE099-AF1D-437A-B87C-02A5DDCF6FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008BE099-AF1D-437A-B87C-02A5DDCF6FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008BE099-AF1D-437A-B87C-02A5DDCF6FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008BE099-AF1D-437A-B87C-02A5DDCF6FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114A07C1-A65A-462B-B5D5-10E19449B7B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114A07C1-A65A-462B-B5D5-10E19449B7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114A07C1-A65A-462B-B5D5-10E19449B7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114A07C1-A65A-462B-B5D5-10E19449B7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
