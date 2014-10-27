@@ -11,7 +11,7 @@ namespace Example
         public bool IsCSSNoob { get; set; }
     }
 
-    public static class Programn
+    public static class Program
     {
         public static void Main()
         {
