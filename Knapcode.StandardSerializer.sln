@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapcode.StandardSerializer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapcode.StandardSerializer", "Knapcode.StandardSerializer\Knapcode.StandardSerializer.csproj", "{114A07C1-A65A-462B-B5D5-10E19449B7B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{50B71B6A-4B4D-47E1-AF65-3AB28E20C31E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{114A07C1-A65A-462B-B5D5-10E19449B7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{114A07C1-A65A-462B-B5D5-10E19449B7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114A07C1-A65A-462B-B5D5-10E19449B7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B71B6A-4B4D-47E1-AF65-3AB28E20C31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B71B6A-4B4D-47E1-AF65-3AB28E20C31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B71B6A-4B4D-47E1-AF65-3AB28E20C31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B71B6A-4B4D-47E1-AF65-3AB28E20C31E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
