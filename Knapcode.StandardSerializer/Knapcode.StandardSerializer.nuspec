@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Knapcode.StandardSerializer</id>
+    <version>1.0</version>
+    <authors>joel.verhagen@gmail.com</authors>
+    <owners>joel.verhagen@gmail.com</owners>
+    <licenseUrl>https://github.com/joelverhagen/StandardSerializer/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/joelverhagen/StandardSerializer</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A contract resolver for Json.NET to make making serializing property names simpler.</description>
+    <tags>json.net newtonsoft camel case pascal case propertyname serialize</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="4.5.6" />
+    </dependencies>
+  </metadata>
+</package>
