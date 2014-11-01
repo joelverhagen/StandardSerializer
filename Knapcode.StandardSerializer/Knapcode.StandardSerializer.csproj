@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Version;Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Version;Build;NuGet" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,9 +53,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  
   <!-- enable MSBuild.Community.Tasks -->
   <PropertyGroup>
     <MSBuildCommunityTasksPath>$(MSBuildProjectDirectory)\..\.build</MSBuildCommunityTasksPath>
+    <NuGetPath>$(MSBuildProjectDirectory)\..\.nuget</NuGetPath>
   </PropertyGroup>
   <Import Project="$(MSBuildCommunityTasksPath)\MSBuild.Community.Tasks.Targets" />
   <Target Name="Version">
@@ -69,5 +71,8 @@
       <CommitSuffix Condition="'$(HasPendingChanges)' == 'true'">-dirty</CommitSuffix>
     </PropertyGroup>
     <AssemblyInfo CodeLanguage="CS" OutputFile="Properties\AssemblyInfo.cs" AssemblyTitle="$(RootNamespace)" ComVisible="false" CLSCompliant="true" Guid="963e0295-1d98-4f44-aadc-8cb4ba91c613" AssemblyInformationalVersion="$(VersionMajor).$(VersionMinor).$(VersionBuild).$(VersionRevision)-$(Commit)$(CommitSuffix)" AssemblyVersion="$(VersionMajor).$(VersionMinor).$(VersionBuild).$(VersionRevision)" AssemblyFileVersion="$(VersionMajor).$(VersionMinor).$(VersionBuild).$(VersionRevision)" />
+  </Target>
+  <Target Name="NuGet">
+    <NuGetPack ToolPath="$(NuGetPath)" File="$(RootNamespace).nuspec" Symbols="false" BasePath="$(OutputPath)" OutputDirectory="$(OutputPath)" Version="$(VersionMajor).$(VersionMinor).$(VersionBuild)" Properties="id=$(RootNamespace)" />
   </Target>
 </Project>
