@@ -18,6 +18,15 @@ like serialization. Bah!
 This library tries to give you all the flexibility you need to avoid `JsonPropertyAttribute` in your models while still
 allowing you to consume that juicy JSON.
 
+Installation
+------------
+
+To install StandardSerializer, run the following command in the Package Manager Console:
+
+```
+PM> Install-Package Knapcode.StandardSerializer
+```
+
 Example
 -------
 
