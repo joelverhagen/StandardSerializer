@@ -12,7 +12,7 @@
 [assembly: System.Runtime.InteropServices.ComVisible(false)]
 [assembly: System.CLSCompliant(true)]
 [assembly: System.Runtime.InteropServices.Guid("963e0295-1d98-4f44-aadc-8cb4ba91c613")]
-[assembly: System.Reflection.AssemblyInformationalVersion("1.0.0.0-9c82a0d-dirty")]
+[assembly: System.Reflection.AssemblyInformationalVersion("1.0.0.0-base")]
 [assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
 [assembly: System.Reflection.AssemblyFileVersion("1.0.0.0")]
 
